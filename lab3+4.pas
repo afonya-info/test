@@ -1,4 +1,4 @@
-program art; {$D+,L+}
+program art; 
 
 uses crt,graph,wincrt;
 
@@ -8,6 +8,7 @@ const
   unpush = 15;
   backcol = 7;
   root = 4.62919;
+	// test commit
 
 type
   armen = array[1..c] of string[90];
@@ -80,6 +81,7 @@ begin
 		readln;
 	end;
 end;
+//and here test vommit
 
 procedure outmenu;
 var
@@ -104,6 +106,7 @@ begin
   writeln('press any key');
   readln;
 end;
+
 
 procedure calsquare;
 var dd,absdd:real;
@@ -133,7 +136,7 @@ begin
     snl := perv(b) - perv(a);
   if poz = 2 then outsquare;
 end;
-
+// рурурру
 
 begin
   //textbackground(7);
